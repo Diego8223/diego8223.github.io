@@ -72,7 +72,7 @@ body {
 }
 
 .eagle {
-    width: 300px;
+    width: 400px;
     animation: flyEagle 20s linear infinite;
 }
 
@@ -84,10 +84,10 @@ body {
         transform: translateX(300px) translateY(-55px);
     }
     50% {
-        transform: translateX(600px) translateY(150px);
+        transform: translateX(600px) translateY(50px);
     }
     75% {
-        transform: translateX(900px) translateY(-5px);
+        transform: translateX(900px) translateY(-55px);
     }
     100% {
         transform: translateX(1400px) translateY(0);
@@ -252,4 +252,22 @@ header img {
     vertical-align: middle; /* Alinea verticalmente el texto con la imagen */
   }
   
+/* Estilos para el botón */
+.btn-cta {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ffdb58; /* Color de fondo */
+    color: #080808; /* Color del texto */
+    text-decoration: none;
+    border-radius: 5px; /* Bordes redondeados */
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Efecto de hover cuando el ratón pasa por encima */
+.btn-cta:hover {
+    background-color: #6c63ff; /* Color de fondo cuando se pasa el ratón */
+}
 

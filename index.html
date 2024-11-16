@@ -16,10 +16,39 @@
             <h1>Diego Andrés Ruiz Rodríguez</h1>
             <p>Desarrollador Full Stack</p>
             <a href="#contacto" class="btn-cta">Contáctame</a>
-        </div>
-        <div class="eagle-animation">
-            <img src="./fotos/AguilaHojadevida.png" alt="Águila volando" class="eagle">
-        </div>
+
+       <!-- Contenedor del águila con la imagen -->
+<div class="eagle-animation">
+    <img src="./fotos/aguila.png" alt="Águila volando" class="eagle">
+</div>
+
+<!-- Audio que se puede activar y desactivar -->
+<audio id="audio" loop>
+    <source src="./fotos/gryffin-cry-6995.mp3" type="audio/mpeg">
+    Tu navegador no soporta la etiqueta de audio.
+</audio>
+
+<!-- Botón estilizado para activar/desactivar el audio -->
+<a href="#" id="play-button" class="btn-cta">Reproducir Sonido</a>
+
+<script>
+    // Obtener el audio y el botón
+    var audio = document.getElementById('audio');
+    var playButton = document.getElementById('play-button');
+
+    // Función para iniciar/detener el audio al hacer clic en el botón
+    playButton.onclick = function() {
+        if (audio.paused) {
+            audio.play(); // Reproducir audio
+            playButton.textContent = 'Detener Sonido'; // Cambiar texto del botón
+        } else {
+            audio.pause(); // Pausar audio
+            playButton.textContent = 'Reproducir Sonido'; // Cambiar texto del botón
+        }
+    };
+</script>
+
+
     </header>
 
     <main class="container my-4">
