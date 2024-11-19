@@ -234,10 +234,10 @@ progress::-moz-progress-bar {
 }
 
 .foto-cabecera {
-    width: 0px;  /* Ajusta el ancho de la imagen */
-    height: 0px;  /* Ajusta la altura de la imagen */
-    border-radius: 0%;  /* Hace que la imagen tenga forma circular */
-    margin-right: 60px;  /* Añade espacio a la derecha de la imagen */
+    width: 30px;  /* Ajusta el ancho de la imagen */
+    height: 10px;  /* Ajusta la altura de la imagen */
+    border-radius: 10%;  /* Hace que la imagen tenga forma circular */
+    margin-right: 80px;  /* Añade espacio a la derecha de la imagen */
 }
 
 header img {
